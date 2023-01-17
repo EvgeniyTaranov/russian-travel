@@ -1,0 +1,17 @@
+.header__lang-link {
+  max-width: 30px;
+  color: #FFFFFF;
+  text-decoration-line: none;
+}
+
+.header__lang-link:hover {
+  opacity: 70%;
+  transition: 0.4s ease-in-out;
+  cursor: url(../../../images/cursor-pointer.svg), pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    max-width: 22px;
+  }
+}

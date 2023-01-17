@@ -1,0 +1,14 @@
+.place__website-link {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.place__website-link:hover {
+  opacity: 70%;
+  transition: 0.4s ease-in-out;
+  cursor: url(../../../images/cursor-pointer.svg), pointer;
+}

@@ -1,0 +1,132 @@
+@import url(../styles/normalize.css);
+
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang/header__lang.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_type/header__lang-link_type_active.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+@import url(../blocks/lead/__image/lead__image.css);
+
+@import url(../blocks/lead-text/lead-text.css);
+@import url(../blocks/lead-text/__title/lead-text__title.css);
+@import url(../blocks/lead-text/__subtitle/lead-text__subtitle.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-numbers/intro__list-numbers.css);
+@import url(../blocks/intro/__list-point/intro__list-point.css);
+
+@import url(../blocks/gallery/gallery.css);
+
+@import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__paragraphs/place__paragraphs.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__website-link/place__website-link.css);
+@import url(../blocks/place/__website-title/place__website-title.css);
+@import url(../blocks/place/__website/place__website.css);
+
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  src: local("Inter"),
+    url("../fonts/Inter-Thin.woff2") format("woff2"),
+    url("../fonts/Inter-Thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: local("Inter"),
+    url("../fonts/Inter-ExtraLight.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-ExtraLight.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Inter"),
+    url("../fonts/Inter-Light.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-Light.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inter"),
+    url("../fonts/Inter-Regular.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  src: local("Inter"),
+    url("../fonts/Inter-Medium.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-Medium.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Inter"),
+    url("../fonts/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-SemiBold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Inter"),
+    url("../fonts/Inter-Bold.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-Bold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: local("Inter"),
+    url("../fonts/Inter-ExtraBold.woff2?v=3.19") format("woff2"),
+    url("../fonts/Inter-ExtraBold.woff?v=3.19") format("woff");
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  src:
+    url("../fonts/Inter-Black.woff2") format("woff2"),
+    url("../fonts/Inter-Black.woff") format("woff");
+}

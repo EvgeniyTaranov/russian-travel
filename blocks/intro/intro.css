@@ -1,0 +1,38 @@
+.intro {
+  max-width: 690px;
+  min-height: 429px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto 92px 11.56%;
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    margin: 0 auto 92px 4.69%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: 720px;
+    margin: 0 3.13% 88px;
+  }
+}
+
+@media screen and (max-width: 718px) {
+  .intro {
+    max-width: 720px;
+    margin: 0 5% 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: 288px;
+    max-height: 754px;
+    margin: 0 5% 64px;
+  }
+}

@@ -1,0 +1,18 @@
+.header__lang {
+  list-style: none;
+  gap: 18px;
+  display: flex;
+  padding: 0;
+  margin: auto 0 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: right;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}
