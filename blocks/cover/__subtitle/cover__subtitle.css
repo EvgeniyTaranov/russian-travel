@@ -4,7 +4,13 @@
   font-size: 18px;
   line-height: 22px;
   text-align: center;
-  margin: 0 auto;
+  margin: 0;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.cover__title:hover {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 402px) {

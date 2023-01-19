@@ -10,10 +10,10 @@
 }
 
 .cover__title:hover {
-  cursor: url(../../../images/cursor-pointer.svg), pointer;
+  cursor: pointer;
 }
 
-@media screen and (max-width: 402px) {
+@media screen and (max-width: 505px) {
   .cover__title {
     max-width: 288px;
     font-size: 32px;

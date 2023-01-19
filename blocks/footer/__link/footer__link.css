@@ -9,9 +9,9 @@
 }
 
 .footer__link:hover {
-  opacity: 70%;
+  opacity: 0.8;
   transition: 0.4s ease-in-out;
-  cursor: url(../../../images/cursor-pointer.svg), pointer;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 650px) {

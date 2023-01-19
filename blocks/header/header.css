@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  height: 52px;
+  min-height: 52px;
   padding: 28px 3.75% 56px;
 }
 
@@ -23,7 +23,7 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
-    height: 42px;
+    min-height: 42px;
     padding: 16px 5% 48px;
   }
 }

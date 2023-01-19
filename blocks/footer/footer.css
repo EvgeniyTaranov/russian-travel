@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-between;
   max-width: 1184px;
-  max-height: 18px;
   margin: 0 auto 24px;
 }
 
@@ -36,7 +35,6 @@
     align-items: flex-start;
     flex-wrap: wrap;
     max-width: 186px;
-    max-height: 310px;
     margin: 0 36.88% 24px 5%;
   }
 }
